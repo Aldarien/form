@@ -12,5 +12,14 @@
             "email": "aldarien85@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload": {
+		"psr-4" : {
+			"App\\" : "app",
+			"Form\\" : "src"
+		},
+		"files" : [
+			"app/Helper/functions.php"
+		]
+	}
 }
