@@ -1,7 +1,7 @@
 <?php
 namespace Form;
 
-class Option
+class Option extends Element
 {
 	protected $value;
 	protected $html;
@@ -15,6 +15,18 @@ class Option
 		}
 		$output .= '>' . $this->html . '</option>';
 		return $output;
+	}
+	public function setValue($value)
+	{
+		$this->value = $value;
+	}
+	public function setHtml($value)
+	{
+		$this->html = $value;
+	}
+	public function setSelected(bool $value)
+	{
+		$this->selected = $value;
 	}
 }
 ?>

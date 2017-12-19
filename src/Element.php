@@ -40,6 +40,10 @@ class Element
 		$classes []= $class;
 		$this->classes = implode(' ', $classes);
 	}
+	public function setId(string $id)
+	{
+		$this->id = $id;
+	}
 	public function setName(string $name)
 	{
 		$this->name = $name;

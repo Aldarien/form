@@ -12,12 +12,16 @@ class Input extends Element
 		if ($this->value != '') {
 			$output .= ' value="' . $this->value . '"';
 		}
-		$output .= '>';
+		$output .= ' />';
 		return $output;
 	}
 	public function setValue(string $value)
 	{
 		$this->value = $value;
+	}
+	public function setType(string $type)
+	{
+		$this->type = $type;
 	}
 }
 ?>
