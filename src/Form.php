@@ -21,7 +21,7 @@ class Form
 	{
 		foreach ($params as $attr => $value) {
 			$attr = strtolower($attr);
-			if (isset($this->$attr)) {
+			if (property_exists($this, $attr)) {
 				$this->$attr = $value;
 			}
 		}
