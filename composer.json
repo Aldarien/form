@@ -1,7 +1,7 @@
 {
     "name": "aldarien/form",
     "description": "Form building for frontend",
-    "type": "linrary",
+    "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^6.5"
     },
