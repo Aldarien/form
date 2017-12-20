@@ -2,6 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/aldarien/form/v/stable?format=plastic)](https://packagist.org/packages/aldarien/form)
 [![License](https://poser.pugx.org/aldarien/form/license?format=plastic)](https://packagist.org/packages/aldarien/form)
+[![Travis-CI](https://travis-ci.org/Aldarien/form.svg?branch=testing)](https://travis-ci.org/Aldarien/form)
 
 Form building for frontend
 
