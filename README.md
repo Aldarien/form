@@ -1,6 +1,7 @@
 # Form
 
-[![Latest Stable Version](https://poser.pugx.org/aldarien/form/version?format=plastic)](https://packagist.org/packages/aldarien/form?format=plastic)
+[![Latest Stable Version](https://poser.pugx.org/aldarien/form/v/stable?format=plastic)](https://packagist.org/packages/aldarien/form)
+[![License](https://poser.pugx.org/aldarien/form/license?format=plastic)](https://packagist.org/packages/aldarien/form)
 
 Form building for frontend
 
